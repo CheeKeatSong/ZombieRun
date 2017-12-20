@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HealthApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for HealthApp
+   pod 'Kingfisher', '~> 3.0' #ImageLoader library i.e - from url to image
+  pod 'Alamofire', '~> 4.3'
+  pod 'SwiftyJSON'
+  pod 'SlideMenuControllerSwift'
+  pod 'EZLoadingActivity' #Stable release for Swift 3.0  
+  pod 'SQLite.swift', '~> 0.11.2'
+  pod 'DatePickerDialog'
+  pod 'ObjectMapper', '~> 2.2'
+  pod 'SCLAlertView'
+  pod "ESPullToRefresh"
+  pod 'JTAppleCalendar', '~> 6.0'
+  # For latest release in cocoapods
+  pod 'JSQWebViewController'
+
+  target 'HealthAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HealthAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
