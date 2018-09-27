@@ -9,6 +9,10 @@ A gamified health app (Track Running) which includes the elements of zombies. It
 
 * **User Profile**. Player can check out their performance statistics and manage their profile information!
 
+## Contributor
+
+1. [Edwin Cheong](https://github.com/edwin-19)
+
 ## Note
 
 Last update: April 2017
