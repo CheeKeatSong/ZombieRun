@@ -9,14 +9,8 @@ A gamified health app (Track Running) which includes the elements of zombies. It
 
 * **User Profile**. Player can check out their performance statistics and manage their profile information!
 
-## Getting Started
-
-1. Clone the source code.
-
-2. With XAMPP installed. Make sure it is in xampp/htdocs.
-
-3. Run on XAMPP.
-
 ## Note
+
+Last update: April 2017
 
 This prototype is abandoned.
